@@ -97,7 +97,6 @@ article {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
   border-bottom: 1px solid var(--color-border);
   padding-bottom: 1rem;
 }
@@ -469,13 +468,32 @@ figure.full-width {
 }
 
 
+/* --- Centered Layout (no margin notes) --- */
+.article-wrapper.centered {
+  grid-template-columns: 1fr;
+  max-width: var(--content-width);
+}
+
+@media (max-width: 720px) {
+  .article-wrapper.centered {
+    max-width: 100%;
+  }
+}
+
+
 /* ============================================================
    RESPONSIVE — collapse margin notes below content
    ============================================================ */
 @media (max-width: 1020px) {
   .article-wrapper {
     grid-template-columns: 1fr;
-    max-width: var(--content-width);
+    max-width: 100%;
+    padding: 2.5rem 1.5rem 5rem;
+  }
+
+  .site-header,
+  .site-footer {
+    max-width: 100%;
   }
 
   .margin-note,
@@ -504,22 +522,92 @@ figure.full-width {
 @media (max-width: 720px) {
   :root {
     --size-base: 16px;
-    --size-h1: 1.7rem;
-    --size-h2: 1.3rem;
+    --size-h1: 1.5rem;
+    --size-h2: 1.2rem;
+    --size-h3: 1.1rem;
+  }
+
+  .site-header {
+    padding: 1rem 1rem 0;
   }
 
   .site-header nav {
-    flex-direction: column;
-    gap: 0.8rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .site-header .site-name {
+    font-size: 1rem;
+  }
+
+  .site-header .nav-links {
+    gap: 1rem;
+  }
+
+  .site-header .nav-links a {
+    font-size: 0.72rem;
   }
 
   .article-wrapper {
-    padding: 2rem 1rem 4rem;
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .article-header h1 {
+    font-size: var(--size-h1);
+    line-height: 1.3;
+  }
+
+  .article-meta {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .article-meta .date::before {
+    display: none;
+  }
+
+  .article-tags {
+    flex-wrap: wrap;
+  }
+
+  article pre {
+    padding: 0.8rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  .blog-index .post-title {
+    font-size: 1.05rem;
   }
 
   .site-footer {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
+    padding: 1.5rem 1rem;
   }
+}
+
+/* --- Overflow protection (all sizes) --- */
+article {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+article pre {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
