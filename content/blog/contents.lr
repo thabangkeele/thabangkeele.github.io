@@ -1,3 +1,5 @@
-_model: blog
+_model: blog-aggregate
 ---
 title: Blog
+---
+description: Everything I've written, pulled from every category below — filter by topic if you're after one in particular.
