@@ -17,7 +17,7 @@
       <li>
         <span class="post-title"><a href="{{ post | url }}">{{ post.title }}</a></span>
         <div class="post-meta">
-          {{ post.author }} · {{ post.pub_date | dateformat('MMMM d, Y') }}
+          {{ post.pub_date | dateformat('MMMM d, Y') }}
         </div>
         {% if post.summary %}
           <p class="post-summary">{{ post.summary }}</p>

@@ -162,16 +162,6 @@ article {
   align-items: center;
 }
 
-.article-meta .author {
-  font-weight: 600;
-}
-
-.article-meta .date::before {
-  content: '·';
-  margin-right: 0.3rem;
-  color: var(--color-border);
-}
-
 .article-tags {
   display: flex;
   gap: 0.5rem;
