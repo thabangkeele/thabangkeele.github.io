@@ -363,20 +363,32 @@ article pre code {
 }
 
 
-/* --- Figures --- */
+/* --- Figures & Images ---
+   All images center by default, whether dropped in as plain
+   Markdown (![alt](src.png)) or wrapped in a <figure>. Add a
+   <figcaption> to credit a source — see SITE-MANUAL.md §4. */
+article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.75rem auto;
+}
+
 article figure {
-  margin: 2rem 0;
+  margin: 2rem auto;
+  text-align: center;
 }
 
 article figure img {
-  max-width: 100%;
-  height: auto;
+  margin: 0 auto;
 }
 
 article figcaption {
   font-family: var(--font-heading);
   font-size: var(--size-small);
   color: var(--color-text-light);
+  font-style: italic;
+  text-align: center;
   margin-top: 0.6rem;
   line-height: 1.5;
 }
@@ -385,6 +397,46 @@ article figcaption {
 figure.full-width {
   width: calc(var(--content-width) + var(--margin-width) + var(--gap));
   max-width: none;
+}
+
+
+/* --- Tables ---
+   Minimalist, Tufte-style: horizontal rules only, no vertical
+   lines, no zebra striping. Bold headers. Text left-aligns by
+   default; use Markdown table-alignment syntax (`---:`) on a
+   column to right-align numbers — see SITE-MANUAL.md §4. */
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+article th,
+article td {
+  padding: 0.55em 1.2em 0.55em 0;
+  text-align: left;
+  border: none;
+}
+
+article th:last-child,
+article td:last-child {
+  padding-right: 0;
+}
+
+article thead th {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  border-bottom: 2px solid var(--color-text);
+}
+
+article tbody tr {
+  border-bottom: 1px solid var(--color-border);
+}
+
+article tbody tr:last-child {
+  border-bottom: 2px solid var(--color-text);
 }
 
 
@@ -598,6 +650,7 @@ figure.full-width {
 
   .article-meta {
     flex-direction: column;
+    align-items: flex-start;
     gap: 0.2rem;
   }
 
@@ -635,11 +688,6 @@ article {
 article pre {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-}
-
-article img {
-  max-width: 100%;
-  height: auto;
 }
 
 .katex-display {

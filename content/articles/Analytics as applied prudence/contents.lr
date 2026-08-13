@@ -1,0 +1,183 @@
+_model: blog-post
+---
+title: Analytics as applied prudence
+---
+pub_date: 2026-08-07
+---
+tags: analytics, decision-making, operations-research
+---
+body:
+
+## Everyone's an Analyst Now
+
+I have sat through more blogs and LinkedIn posts about "analytics" than I would
+like to admit...dashboards, forecasts, some stuff about "AI-powered insights"... and 
+somewhere along the way the word stopped meaning anything specific. Everyone
+uses it. Nobody agrees on it. The people in charge do not know what to do with it. 
+So, for the first time, I am actually sitting down to work out what I mean when I say it, 
+and which part of the job is important to me.
+
+At this point, for me the question is not "What is analytics?" It is narrower than that, given
+the [stages](https://www.analytics8.com/blog/what-are-the-four-types-of-analytics-and-how-do-you-use-them/)
+everyone already agrees exist, which one is actually hard, and why it continues to be so difficult
+for business to turn into real value? For me that is what decides how the work gets staffed and taken seriously.
+
+### Older Than the Dashboard
+
+The four-stage split is standard enough to show up across practitioner and academic literature:
+descriptive, predictive, prescriptive as the base three (Krumeich, Werth and
+Loos, 2016; Frazzetto et al., 2019), with a diagnostic stage commonly wedged in between descriptive and predictive.
+
+**Descriptive Analytics** is concerned with answering the questions: *“what happened?”* 
+and *"why did it happen?"*: this is the fourth activity under diagnostic analytics, but
+it is still descriptive in nature...
+
+**Predictive Analytics** is concerned with answering the questions: *“what will happen?”* and *"why it will happen?"*,
+
+while **Prescriptive Analytics** is concerned with answering the questions:
+*"what do we want to happen?"* and *“how can we make it happen?”*.
+
+These simple questions demand far more than just number crunching on the computer. To address them effectively
+a decision maker must leverage soft as well as hard skills. Easier said than done...
+
+But the part I found most interesting while digging around is that analytics is way older... 
+older than the computer. Rossi (2021) makes the point that treating analytics as a computer-age
+invention misses an older account of the same structure and points back to Cicero's *De Inventione* (Cicero, 2002).
+In this book, Cicero splits Prudence into three parts: Memory, Intelligence, and Foresight.
+
+**Prudence**, plainly put, is practical wisdom: the capacity to correctly judge what should be done in a given situation,
+and then do it.
+
+This then means, **Memory** is the skill required to answer "what happened?";
+**Foresight**, the skill required to answer "what will happen?"; and
+**Intelligence**, the skill required to answer "how can we make it happen?"
+
+Arguably the one quality every decision-maker, two thousand years ago or today, is trying to sharpen.
+Analytics, read this way, is a contemporary rebranding of an art that has been known for a long time.
+
+Mortenson, Doherty and Robinson (2015) make a parallel case from a different direction,
+arguing that operations research and analytics are the same lineage under different names,
+and that OR's own field spent decades unsure whether it had a future at all.
+
+Mortenson et al. (2015) also cite Ackoff (1979), who said as much in a paper
+literally titled "The Future of Operational Research is Past." He watched OR lose the room: dispersed into other
+departments, its practitioners absorbed and renamed, its own interdisciplinary identity dissolved.
+He was not wrong about any of that. He was wrong about what it meant. Operations Research did not die,
+it got folded into a discipline that had not been named yet. Every time someone runs an optimization
+model to decide what a business should do, that is OR. Maybe one could argue that in 1979,
+but no one can argue that OR has no future today...
+
+### The Tools
+
+"Analytics" is not one thing. It is all the six honest men that Kipling (1902) kept...
+<span class="margin-note"> "I keep six honest serving-men
+   (They taught me all I knew);
+Their names are What and Why and When
+   And How and Where and Who... " </span>
+
+*What happened?* That is descriptive: the floor everyone starts on, the dashboard, the sales-last-quarter number.
+*Why did it happen?* Diagnostic, usually lumped in with descriptive, but it is doing different work: drill-down,
+the deep-dive, correlation, the "wait, why did that spike" conversation.
+
+*What will happen?* Predictive, a bet or guess dressed up as a chart. 
+
+And then the one that actually matters:
+*what should we do about it?* Prescriptive. The only one of the four that does not get to stop at an observation.
+It has to make a call... a bet with real money.
+
+| Stage        | Question             | Methods                                    |
+| ------------ | -------------------- | ------------------------------------------ |
+| Descriptive  | What happened?       | Aggregation, dashboards                    |
+| Diagnostic   | Why did it happen?   | Segmentation, correlation, root-cause      |
+| Predictive   | What will happen?    | Regression, forecasting, classification    |
+| Prescriptive | What should be done? | Optimization, simulation, causal inference |
+
+<figure class="figure">
+  <img src="./Harry.png" alt="Harry_Da_Souza">
+  <figcaption> Tom Hardy as Harry Da Souza in Mobland</figcaption>
+</figure>
+
+> "My job is to predict the future. Anticipate problems proactively, deal with unforeseen events should they arise.
+To do this, I need a set of tools. Small tools, big tools, and in cases of real emergency, some really big tools."
+
+> Harry Da Souza, *Mobland*, 2023
+
+<span class="margin-note"> Correlation is cheap. Causation is the whole job.</span>
+
+Prescriptive analytics is the hard one, and not by accident. It inherits every mistake the first three made upstream.
+It has to be right about *why*, not just *what*...
+
+It is fighting real-world constraints (budget, time, capacity), which makes it an operations-research problem,
+not just a statistical one (Mortenson, Doherty and Robinson, 2015). And worst of all, 
+it does not get to assume the world stands still: the decision it makes changes the thing it was measuring, 
+so it has to survive its own consequences. Descriptive analytics never has to live with itself. Prescriptive does.
+
+Two thousand years before anyone put "Analyst" on a LinkedIn profile,
+Cicero sat down and defined an analytical problem-solving framework:
+
+<span class="margin-note"> Prudentia means using reason to run your own mind. Inventio means method: the hard, careful search for the best argument.
+Rhetorica sits between them because persuasion needs both. Prudentia keeps you honest. Inventio makes
+sure you actually have a point (Rossi, 2021).</span>
+
+<figure class="figure">
+  <img src="./Cicero.png" alt="cicero">
+  <figcaption>An allegorical woodcut
+showing Rhetorica enthroned between
+Prudentia and Inventio; Willem Silvius,
+Antwerp, 1561 (Image by Anonymous,
+Wikimedia, public domain).</figcaption>
+</figure>
+
+> "Memory is that faculty by which the mind recovers the knowledge of things which have been.
+Intelligence is that by which it perceives what exists at present. Foresight is that by which
+anything is seen to be about to happen, before it does happen."
+
+> Cicero, *De Inventione*
+
+Memory is descriptive and diagnostic. Foresight is predictive. And Intelligence, not IQ, but judgment,
+the thing that turns "I see it" into "here's what we do", is prescriptive. Big Data, dashboards, agentic AI: it is all the same structure just in different packaging.
+
+That line from *Mobland* hit me hard and just stuck with me... talk about skin in the game.
+Swap "problems" for "the business" and that is a job description. It is mine, some days.
+
+### The Fine Print
+
+If prescriptive analytics is really an optimization-and-systems-engineering problem and not a reporting one,
+then treating it as "Advanced BI" and staffing it that way is a mistake: you are under-resourcing the hardest,
+highest-stakes part of the job.
+
+As for agentic AI, I think it does not collapse the difficulty, it just relocates it. Bundling all four stages into one
+agentic pipeline does not remove the judgment call Cicero called Intelligence, it just moves who makes
+the decision to someone who probably has no skin in the game. The analyst used to sit at the prescriptive step and decide, in the moment, with the actual case in 
+front of them. Now that decision gets made by whoever set the system's objective function and guardrails, 
+before the system ever runs, before the specific case even exists, before real life even happens...
+
+The hard part does not get automated away. It gets moved upstream and handed to an engineer who may never see the decision
+their system eventually makes. That is not progress. It is the same problem wearing a scarier costume,
+because nobody is standing at the moment of judgment anymore to catch it going wrong before it acts.
+
+### The Verdict
+
+Descriptive and predictive analytics produce artifacts a human still has to interpret and act on; someone else always closes the loop.
+Prescriptive analytics is the only branch where the analytics closes its own loop, it is the point where the discipline stops being
+reporting and starts being a system. Everything before that stage is commentary; prescriptive is the only one that has to live in
+the world it is describing.
+
+It is also, not coincidentally, the hardest problem in the stack: the steepest learning curve, the highest ceiling, sitting right at
+the intersection of statistics, optimization, and control systems, and on the Cicero reading, the oldest form of the discipline too.
+Get the description wrong and you have made an ugly chart. Get the prescription wrong and you have made a bad decision at scale,
+on purpose, with your name on it. That accountability is exactly what makes it worth doing.
+
+But if agentic AI keeps eating its way through the earlier stages, this stops being a job description and starts being a
+design requirement. The people writing the objective functions and the guardrails, not the people watching the dashboards,
+will be the ones actually exercising Cicero's Intelligence. Whether they know it or not.
+
+### References
+
+- Ackoff, R., 1979. The future of operational research is past. Journal of the Operational Research Society, 30(2), pp.93-104.
+- Cicero, M.T., 2002. De Inventione. Translated by C.D. Yonge. Blackmask [E-book]. Available at: http://public-library.uk/ebooks/21/27.pdf (Accessed: 13 August 2026).
+- Frazzetto, D., Nielsen, T.D., Pedersen, T.B. and Šikšnys, L., 2019. Prescriptive analytics: a survey of emerging trends and technologies. The VLDB Journal 28(4), pp.575–595.
+- Kipling, R., 1902. 'The Elephant's Child', in Just So Stories [E-book]. Available at: http://public-library.uk/ebooks/21/27.pdf (Accessed: 13 August 2026).
+- Krumeich, J., Werth, D. and Loos, P., 2016. Prescriptive control of business processes: new potentials through predictive analytics of big data in the process manufacturing industry. Business & Information Systems Engineering, 58(4), pp.261-280.
+- Mortenson, M.J., Doherty, N.F. and Robinson, S., 2015. Operational research from Taylorism to Terabytes: a research agenda for the analytics age. European Journal of Operational Research, 241(3), pp.583-595.
+- Rossi, R., 2021. Inventory analytics (p. 184). Open Book Publishers.
