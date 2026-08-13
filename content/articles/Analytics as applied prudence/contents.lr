@@ -2,7 +2,7 @@ _model: blog-post
 ---
 title: Analytics as applied prudence
 ---
-pub_date: 2026-08-07
+pub_date: 2026-08-13
 ---
 tags: analytics, decision-making, operations-research
 ---
@@ -92,7 +92,7 @@ It has to make a call... a bet with real money.
 | Predictive   | What will happen?    | Regression, forecasting, classification    |
 | Prescriptive | What should be done? | Optimization, simulation, causal inference |
 
-<figure class="figure">
+<figure class="full-width">
   <img src="./Harry.png" alt="Harry_Da_Souza">
   <figcaption> Tom Hardy as Harry Da Souza in Mobland</figcaption>
 </figure>
@@ -119,7 +119,7 @@ Cicero sat down and defined an analytical problem-solving framework:
 Rhetorica sits between them because persuasion needs both. Prudentia keeps you honest. Inventio makes
 sure you actually have a point (Rossi, 2021).</span>
 
-<figure class="figure">
+<figure class="full-width">
   <img src="./Cicero.png" alt="cicero">
   <figcaption>An allegorical woodcut
 showing Rhetorica enthroned between
