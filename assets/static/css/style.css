@@ -162,6 +162,10 @@ article {
   align-items: center;
 }
 
+.article-meta .date::before {
+  content: "Last edited: ";
+}
+
 .article-tags {
   display: flex;
   gap: 0.5rem;
