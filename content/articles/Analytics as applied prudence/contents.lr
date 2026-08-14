@@ -19,8 +19,8 @@ and which part of the job is important to me.
 
 At this point, for me the question is not "What is analytics?" It is narrower than that, given
 the [stages](https://www.analytics8.com/blog/what-are-the-four-types-of-analytics-and-how-do-you-use-them/)
-everyone already agrees exist, which one is actually hard, and why it continues to be so difficult
-for business to turn into real value? For me that is what decides how the work gets staffed and taken seriously.
+everyone already agrees exist, which one of them is actually hard, and why it continues to be so difficult
+for business to turn it into real value? That is what decides how the work gets staffed and taken seriously.
 
 ### Older Than the Dashboard
 
@@ -29,7 +29,7 @@ descriptive, predictive, prescriptive as the base three (Krumeich, Werth and
 Loos, 2016; Frazzetto et al., 2019), with a diagnostic stage commonly wedged in between descriptive and predictive.
 
 **Descriptive Analytics** is concerned with answering the questions: *“what happened?”* 
-and *"why did it happen?"*: this is the fourth activity under diagnostic analytics, but
+and *"why did it happen?"*: this is the fourth activity under **Diagnostic Analytics**, but
 it is still descriptive in nature...
 
 **Predictive Analytics** is concerned with answering the questions: *“what will happen?”* and *"why it will happen?"*,
@@ -38,7 +38,7 @@ while **Prescriptive Analytics** is concerned with answering the questions:
 *"what do we want to happen?"* and *“how can we make it happen?”*.
 
 These simple questions demand far more than just number crunching on the computer. To address them effectively
-a decision maker must leverage soft as well as hard skills. Easier said than done...
+a decision maker must leverage soft as well as hard skills. Which is easier said than done...
 
 But the part I found most interesting while digging around is that analytics is way older... 
 older than the computer. Rossi (2021) makes the point that treating analytics as a computer-age
@@ -66,6 +66,10 @@ He was not wrong about any of that. He was wrong about what it meant. Operations
 it got folded into a discipline that had not been named yet. Every time someone runs an optimization
 model to decide what a business should do, that is OR. Maybe one could argue that in 1979,
 but no one can argue that OR has no future today...
+
+But not to miss one of the most impotant points Ackof(1979) was trying to make. He held the view Academic research had drifted away from practical application
+becoming too focused on abstract theory rather than solving messy, real-world problems. I also believe that, academia often diverges from real life
+because the practitioners do not face real-world risks or consequences. In my experience... Fact...
 
 ### The Tools
 
