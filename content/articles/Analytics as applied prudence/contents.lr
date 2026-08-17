@@ -11,15 +11,14 @@ body:
 ## Everyone's an Analyst Now
 
 I have sat through more blogs and LinkedIn posts about "analytics" than I would
-like to admit...dashboards, forecasts, some stuff about "AI-powered insights"... and 
+like to admit... dashboards, forecasts, some stuff about "AI-powered insights"... and 
 somewhere along the way the word stopped meaning anything specific. Everyone
 uses it. Nobody agrees on it. The people in charge do not know what to do with it. 
 So, for the first time, I am actually sitting down to work out what I mean when I say it, 
 and which part of the job is important to me.
 
 At this point, for me the question is not "What is analytics?" It is narrower than that, given
-the [stages](https://www.analytics8.com/blog/what-are-the-four-types-of-analytics-and-how-do-you-use-them/)
-everyone already agrees exist, which one of them is actually hard, and why it continues to be so difficult
+the stages everyone already agrees exist, which one of them is actually hard, and why it continues to be so difficult
 for business to turn it into real value? That is what decides how the work gets staffed and taken seriously.
 
 ### Older Than the Dashboard
@@ -63,12 +62,12 @@ Mortenson et al. (2015) also cite Ackoff (1979), who said as much in a paper
 literally titled "The Future of Operational Research is Past." He watched OR lose the room: dispersed into other
 departments, its practitioners absorbed and renamed, its own interdisciplinary identity dissolved.
 He was not wrong about any of that. He was wrong about what it meant. Operational Research did not die,
-it got folded into a discipline that had not been named yet. Every time someone runs an optimisation
+it got folded into other disciplines. Every time someone runs an optimisation
 model to decide what a business should do, that is OR. Maybe one could argue that in 1979,
 but no one can argue that OR has no future today...
 
 But not to miss one of the most important points Ackoff (1979) was trying to make: that OR research had drifted away from
-practical application, becoming too focused on abstract theory rather than solving real-world problems, because academics
+practical application, it had become too focused on abstract theory rather than solving real-world problems, academics
 did not face the real-world risks or consequences their practitioner counterparts did.
 
 ### The Tools
