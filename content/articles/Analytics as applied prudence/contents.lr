@@ -2,7 +2,7 @@ _model: blog-post
 ---
 title: Analytics as applied prudence
 ---
-pub_date: 2026-08-13
+pub_date: 2026-08-18
 ---
 tags: analytics, decision-making, operations-research
 ---
@@ -68,11 +68,13 @@ but no one can argue that OR has no future today...
 
 But not to miss one of the most important points Ackoff (1979) was trying to make: that OR research had drifted away from
 practical application, it had become too focused on abstract theory rather than solving real-world problems, academics
-did not face the real-world risks or consequences their practitioner counterparts did.
+did not face the real-world risks or consequences their practitioner counterparts did. Similar to "analysts" today,
+buried behind notebooks and dashboards, often do not have to live with cost of bad judgement calls.
+
 
 ### The Tools
 
-"Analytics" is not one thing. It is all the six honest men that Kipling (1902) kept...
+"Analytics" is not one thing. It is all the six honest serving-men that Kipling (1902) kept...
 <span class="margin-note"> "I keep six honest serving-men
    (They taught me all I knew);
 Their names are What and Why and When
@@ -141,7 +143,7 @@ Memory is descriptive and diagnostic. Foresight is predictive. And Intelligence,
 the thing that turns "I see it" into "here's what we do", is prescriptive. Big Data, dashboards, agentic AI:
 it is all the same structure just in different packaging.
 
-That line from *Mobland* hit me hard and just stuck with me... talk about skin in the game.
+That line from *Mobland* stuck with me... talk about skin in the game.
 Swap "problems" for "the business" and that is a job description. It is mine, some days.
 
 ### The Fine Print
