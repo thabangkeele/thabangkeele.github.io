@@ -9,10 +9,10 @@ tags: analytics, statistics
 body:
 
 One of my great school regrets is not taking statistics more seriously. But in my defence,
-my statistics class was miserable, although for a very stupid reason: the lecturer had this
+my statistics class was miserable, for a very stupid reason though: the lecturer had this
 monotone voice that put me right to sleep. Sometimes I could not make out what he was saying clearly because
-of his thick North African accent. So I missed the entire introductory lecture and did the bare minimum to pass,
-cramming and forgetting everything I'd learnt along the way.
+of his thick accent. So I missed the entire introductory lecture and did the bare minimum to pass,
+cramming and forgetting everything I had learnt along the way.
 
 Enter Einstein... thank you for making me feel better:
 
@@ -27,7 +27,7 @@ I came to conclude that stats can just be plain fun... So...
 
 ## The spoonful and the pot
 
-The one thing I cannot seem to forget from my undergrad stats class is the story about soup and pots... 
+The one thing I cannot forget from my undergrad stats class is the story about soup and pots... 
 My lecturer once said: think about it this way. You are making soup. It has been on the stove for an hour
 and you want to know whether it needs more salt. You do not drink the whole pot to find out. 
 You stir it, lift one spoonful, taste, and then decide what to do on the strength of one teaspoon...
@@ -51,7 +51,7 @@ tools for describing, organising, and interpreting whatever you have in front of
   <figcaption>Princess Leia Organa holding the Death Star plans (Image via <a href="https://starwars.fandom.com/wiki/Death_Star_plans">Star Wars Fandom Wiki</a>)</figcaption>
 </figure>
 
-> "I only hope that when the data's analyzed, a weakness can be found."
+> "I only hope that when the data is analyzed, a weakness can be found."
 
 > Leia Organa, *Star Wars: Episode IV - A New Hope*, 1977
 
@@ -64,13 +64,13 @@ planning or collection to the last presentation or report." Hand (2008) goes fur
 modern statistics is not really about calculation, it is about investigation. Statistics forms the foundation of any
 problem-solving exercise, whether you know it or not...
 
-Statistical ideas are everywhere, they sit underneath almost every part of life, sometimes obviously, sometimes not so obviously.
+From this, one can say, statistical ideas are everywhere, they sit underneath almost every part of life, sometimes obviously, sometimes not so obviously.
 Either way, given how much of everything runs on statistical ideas, it is worth actually understanding them.
 That is what I hope to achieve with this series, over time...
 
 The hard part for me has been presenting stats in a way that feels intuitive rather than mechanical...
 I remember once trying to explain to a colleague why taking the average of averages is incorrect...
-She got more confused, and eventually agreed with me just to end the conversation. I probably explained it badly,
+She got more confused then mad, and eventually agreed with me just to end the conversation. I probably explained it badly,
 because I still picture her out there doing it wrong somewhere...
 
 ### A word that used to mean paperwork
@@ -100,7 +100,7 @@ How many people lived in London, how many would survive to each age, how a plagu
 He reasoned from the numbers he had... to the numbers he wanted. That move, from the recorded to the unrecorded,
 is the moment counting became statistics.
 
-### The two jobs
+## The two jobs
 
 Modern statistics still does both of Graunt's tasks, and it helps to keep them apart.
 I have come to see statistics less as a set of formulas and more as a discipline for:
@@ -108,13 +108,13 @@ I have come to see statistics less as a set of formulas and more as a discipline
 - analysing the data
 - presenting the data... in that order...
 
-Get any one of them wrong and the rest doesn't matter.
+Get any one of them wrong and the rest does not matter.
 
-Done properly, it is a "bullshit detector". It lets you weigh a claim against the evidence behind it
+Done properly, it is a **"bullshit detector"**. It lets you weigh a claim against the evidence behind it
 and tell a reasonable conclusion from a dubious one. That matters more than ever now, given how much data gets
 thrown around by people with an agenda...
 
-In essence the two jobs... descriptive and inferential statistics... (Salkind and Frey, 2026)
+Graunt provides us with the essense of statistics... the two jobs... descriptive and inferential statistics... (Salkind and Frey, 2026)
 
 ### Job #1: The tabulating job
 
@@ -130,59 +130,61 @@ university).
 
 Inferential statistics is Graunt's move. You use the numbers you have to make a claim about numbers you do not have:
 the other 9,980 students, the population the sample was drawn from. The average of the sample (written x-bar)
-becomes an estimate of the average of the whole cohort (written with the Greek letter mu). The convention is worth
-learning now, something I missed completely during my undergrad: Greek letters are the true values you cannot see, Roman letters are the ones you actually calculated.
-The estimate is useful precisely because it reaches past the data. It is also where all the trouble lives, because the reach can be wrong.
+becomes an estimate of the average of the whole cohort (written with the Greek letter mu).
+<span class="margin-note"> "The convention is worth learning now, something I missed completely during my undergrad: Greek letters are the true values you cannot see, Roman letters are the ones you actually calculated.
+The estimate is useful precisely because it reaches past the data." </span>
+
+It is also where all the trouble lives, because the reach can be wrong.
 
 | | Descriptive | Inferential |
 |---|---|---|
-| Question | What do these numbers say? | What do they let me guess about the numbers I don't have? |
-| Scope | Only the data you collected | The whole population that data came from |
-| Example | "These 20 students averaged 68%" | "The cohort of 10,000 averages about 68%, give or take" |
-| Risk | Low, it's just arithmetic | Higher, it's a guess and can be wrong |
+| **Question** | What do these numbers say? | What do they let me guess about the numbers I don not have? |
+| **Scope** | Only the data you collected | The whole population that data came from |
+| **Example** | "These 20 students averaged 68%" | "The cohort of 10,000 averages about 68%, give or take" |
+| **Risk** | Low, it is just arithmetic | Higher, it is a guess and can be wrong |
 
-### The pot you can taste and the pot still cooking
+## The pot that you have tasted and the pot that is still cooking
 
-Here is a distinction most first courses skip, and it is the one that will save you the most grief. W. Edwards Deming,
+W. Edwards Deming,
 the statistician who spent the 1950s teaching Japanese manufacturers how to think about quality,
 split statistical questions into two kinds (Deming, 1975).
 
-An enumerative question is about a fixed pile of things that already exists. How many students in this
+An **enumerative question** which is about a fixed pile of things that already exists. How many students in this
 cohort of ten thousand achieved a distinction, a mark above 75%? There is a real, exact answer sitting in the
 registrar's records right now. Your sample is just a cheaper way of estimating it than checking all ten thousand transcripts.
 
-An analytic question is about a process that is still running. Will next year's incoming class also average above 75%?
-There is no cohort to sample yet, because next year's students haven't enrolled. Your twenty surveyed students only tell
+An **analytic question** which is about a process that is still running. Will next year's incoming class also average above 75%?
+There is no cohort to sample yet, because next year's students haven not enrolled. Your twenty surveyed students only tell
 you about this year. They tell you about next year only if the admissions and teaching process stays stable. That
 stability is an assumption, not something your sample can prove.
 
 Almost every decision that matters is analytic. You are rarely trying to describe a cohort. You are trying to predict what
-next year's cohort will look like, so you can act now. The arithmetic of the two is identical. The confidence you are entitled to is not.
+next year's cohort will look like, so you can act now. The arithmetic of the two is identical. The **confidence** you are entitled to is not.
 
-### Which way the arrow points
+## Which way the arrow points
 
 One last piece of orientation, because it explains why this series will eventually have a companion on probability.
 
-Probability reasons forwards: given a known model of the world, what data should I expect? If this coin is fair,
+**Probability reasons forwards:** given a known model of the world, what data should I expect? If this coin is fair,
 roughly half the flips come up heads. The model is assumed, the data is the unknown.
 
-Statistics reasons backwards: given the data I actually observed, what model of the world is plausible?
+**Statistics reasons backwards:** given the data I actually observed, what model of the world is plausible?
 I flipped it a hundred times and got seventy heads... is it still reasonable to call this coin fair? The data is fixed,
 the model is the unknown.
 
 Same coin, opposite arrows. Probability hands you the model and asks about the data.
 Statistics hands you the data and asks about the model. The backwards direction is harder, and less certain,
-and it is the one you spend your working life in.
+and the one I spend my working life in...
 
-### The one assumption holding it all up
+## The one assumption holding it all up
 
-Every inference in this chapter rested on one quiet condition: that the sample looks like the population,
+Every inference rests on one quiet condition: that the sample looks like the population,
 because it was drawn without favour. Stir the pot and the spoonful represents the soup.
 Leave it unstirred and you taste whatever settled at the top. Pull your twenty students from the front row of one
 lecture hall and you have measured that lecture hall, not the whole cohort. When statistics goes wrong, this is usually where it started.
 
 
-### Closing the lid
+## Closing the lid
 
 Statistics is the art of the spoonful. You are always deciding about the pot you did not taste.
 
