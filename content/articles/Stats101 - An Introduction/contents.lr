@@ -58,9 +58,9 @@ tools for describing, organising, and interpreting whatever you have in front of
 Star Wars offers us a prime example of how using data effectively can result in major strategic wins!
 
 I like the broader definition too, borrowed from David J. Hand's *Statistics: A Very Short
-Introduction* (Hand, 2008), where he quotes the statistician John Chambers: "Greater statistics
+Introduction* (Hand, 2008), where he quotes the statistician John Chambers: ***"Greater statistics
 can be defined simply, if loosely, as everything related to learning from data, from the first
-planning or collection to the last presentation or report." Hand (2008) goes further, expanding on that core definition:
+planning or collection to the last presentation or report."*** Hand (2008) goes further, expanding on that core definition:
 modern statistics is not really about calculation, it is about investigation. Statistics forms the foundation of any
 problem-solving exercise, whether you know it or not...
 
@@ -118,13 +118,13 @@ Graunt provides us with the essense of statistics... the two jobs... descriptive
 
 ### Job #1: The tabulating job
 
-Descriptive statistics is the tabulating. You have a set of numbers in front of you, a sample, and you summarise them:
+**Descriptive statistics** is the tabulating. You have a set of numbers in front of you, a sample, and you summarise them:
 the average, the spread, the shape. Nothing leaves the data on hand. If I tell you the twenty
 surveyed students had an average mark of 68%, that is a fact about those twenty students and nothing else.
 
 ### Job #2: The reaching job
 
-Inferential statistics is often, though not always, the next step after you have collected and summarised your data,
+**Inferential statistics** is often, though not always, the next step after you have collected and summarised your data,
 using a smaller group (say, twenty surveyed students) to say something about a larger one (every undergraduate at the
 university).
 
