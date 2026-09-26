@@ -1,12 +1,18 @@
 _model: blog-post
 ---
-title: Statistics: Chapter 1, The Art of the Spoonful
+title: Statistics, Part I: Foundations
 ---
 pub_date: 2026-09-05
 ---
 tags: analytics, statistics
 ---
+summary: Chapter 1: The Art of the Spoonful
+---
 body:
+
+# Chapter 1: What is Statistics
+
+## The Art of the Spoonful
 
 One of my great school regrets is not taking statistics more seriously. But in my defence,
 my statistics class was miserable, for a very stupid reason though: the lecturer had this
