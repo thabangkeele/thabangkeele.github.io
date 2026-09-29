@@ -204,6 +204,17 @@ article p {
   margin-bottom: 1.2rem;
 }
 
+article h1 {
+  font-family: var(--font-heading);
+  font-size: var(--size-h1);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+}
+
 article h2 {
   font-family: var(--font-heading);
   font-size: var(--size-h2);
