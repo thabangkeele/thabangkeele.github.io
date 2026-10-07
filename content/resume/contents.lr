@@ -10,8 +10,8 @@ body:
 
 ## Summary
 
-Over a decade experience, leveraging Python and the Microsoft cloud ecosystem to optimize end-to-end supply chain operations, from manufacturing and inventory to transportation and retail.
-My focus is optimising processes, workflows, and building predictive models that drive strategic decision-making. I am particularly passionate about Operations Research topics and their applications in decision-making under uncertainty.
+Over a decade of experience, leveraging Python and the Microsoft cloud ecosystem to optimise end-to-end supply chain operations, from manufacturing and inventory to transportation and retail.
+My focus is optimising processes and workflows, and building predictive models that drive strategic decision-making. I am particularly passionate about Operations Research and its applications in decision-making under uncertainty.
 
 I enjoy exploring non-obvious applications of tools and analytical frameworks; those counterintuitive detours are often where complex concepts finally click.
 
@@ -100,7 +100,8 @@ Curious by default, and fascinated by everything I do.
   </div>
   <ul>
     <li>Built a transport network simulation grouping optimal route-store combinations, reducing delivery times and costs.</li>
-    <li>Automated daily, weekly and monthly transport KPI reports and scheduling scripts, removing manual effort and error from a high-frequency planning process.</li>
+    <li>Automated daily, weekly and monthly transport KPI reports and scheduling scripts, reducing manual transport planning by two days while optimising transport costs and maintaining critical inventory levels.</li>
+  </ul>
 </div>
 
 ### Novus Holdings Ltd
@@ -168,8 +169,7 @@ Curious by default, and fascinated by everything I do.
     <span class="role-dates">Oct 2011 to Feb 2012</span>
   </div>
   <ul>
-    <li>Analysed and mapped client data capture workflows through time and motion studies,
-    documenting granular process steps and standardising procedures.</li>
+    <li>Analysed and mapped client data capture workflows through time and motion studies, documenting granular process steps and standardising procedures.</li>
   </ul>
 </div>
 
@@ -187,10 +187,10 @@ Curious by default, and fascinated by everything I do.
 
 ## Skills
 
-**Technical:** SQL · Python · Power BI · Tableau · MS Excel · AMPL · HTML/PHP
+**Technical:** SQL · Python (Pandas, NumPy, Statsmodels, Matplotlib) · Power BI (DAX, data modelling, paginated reporting) · Tableau · VBA · MS Excel (advanced) · AMPL · HTML/PHP
 
 **Systems:** Microsoft Dynamics 365 · Syncron · SAP ERP & BW · Azure Synapse · MySQL · SQL Server · Syspro · One Network
 
-**Methodologies:** Lean · Kaizen · Value Stream Mapping · S&OP Planning · Operations Research Methods
+**Methodologies:** Lean · Kaizen · Value Stream Mapping · S&OP · Operations Research
 
 **Interested in:** Strategic Management · Probability and Uncertainty Modelling · Operations Research · Supply Chain Optimisation
