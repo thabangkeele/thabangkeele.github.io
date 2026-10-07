@@ -1,0 +1,189 @@
+_model: resume
+---
+title: Thabang Keele
+---
+body:
+
+**Industrial Engineer, MSc, BSc**
+
+<p class="contact-line">Email: <a href="mailto:thabangkeele@gmail.com">thabangkeele@gmail.com</a> · Tel: +27 73 524 8105 · <a href="https://www.linkedin.com/in/thabang-keele/">LinkedIn</a> · <a href="https://github.com/thabangkeele">GitHub</a></p>
+
+## Summary
+
+Industrial Engineer solving supply chain problems across manufacturing, automotive aftermarket, retail and technology distribution.
+
+## Experience
+
+### Core Group
+
+<p class="role-note">South Africa's longest-standing Apple distributor.</p>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Industrial Engineer, Supply Chain & Inventory</span>
+    <span class="role-dates">Feb 2025 to Present</span>
+  </div>
+  <ul>
+    <li>Analysing inventory flows and demand patterns across distribution channels to identify replenishment policy improvements that reduce holding costs without compromising fill rates.</li>
+    <li>Designing and implementing process improvements across ordering, warehousing and replenishment, applying Lean principles to eliminate waste and improve throughput.</li>
+  </ul>
+</div>
+
+### Caterpillar Inc.
+
+<p class="role-note">Global manufacturer of construction and mining equipment, engines and industrial power systems.</p>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Parts Operations Consultant</span>
+    <span class="role-dates">Feb 2025</span>
+  </div>
+  <ul>
+    <li>Led implementation of Caterpillar's Parts Excellence Program across dealer networks, assessing operations to improve consistency with global best practices.</li>
+    <li>Partnered with aftermarket sales teams to feed market intelligence into inventory planning, improving parts availability and dealer profitability.</li>
+  </ul>
+</div>
+
+### Motus Aftermarket Parts
+
+<p class="role-note">Aftermarket parts division of Motus Holdings, South Africa's largest automotive group.</p>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Senior Supply Chain Business Analyst</span>
+    <span class="role-dates">Nov 2023 to Feb 2025</span>
+  </div>
+  <ul>
+    <li>Led functional specification development for a Microsoft Dynamics 365 and Syncron implementation, shaping how the business would manage procurement and demand planning.</li>
+    <li>Managed a demand forecasting and inventory control simulation across 140,000 SKUs in 84 locations, selecting optimal replenishment policies by category.</li>
+    <li>Led a customer classification and network optimisation project across 60 retail locations to reduce cost-to-serve, and built a promotions forecasting model that improved availability across 4,500 SKUs.</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Senior Business Analyst, Analytics</span>
+    <span class="role-dates">Apr 2022 to Nov 2023</span>
+  </div>
+  <ul>
+    <li>Acted as Supply Chain Data Steward, bridging supply chain, operations, ICT and finance; built the data glossary and a data-quality auditing system.</li>
+    <li>Built Power BI dashboards, data models and paginated reports that replaced fragmented spreadsheets, giving executives real-time visibility across the business.</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Senior Supply Chain Analyst</span>
+    <span class="role-dates">Jun 2020 to Mar 2022</span>
+  </div>
+  <ul>
+    <li>Led optimisation of group inventory policies, efficiently managing a R2 billion stock holding through improved replenishment logic.</li>
+    <li>Developed a robust S&OP framework that replaced ad hoc planning with structured demand-supply alignment.</li>
+  </ul>
+</div>
+
+### Pick n Pay Supply Chain
+
+<p class="role-note">Supply chain division of Pick n Pay, one of South Africa's largest retail grocery chains.</p>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Transportation Analyst</span>
+    <span class="role-dates">Nov 2018 to May 2020</span>
+  </div>
+  <ul>
+    <li>Built a transport network simulation grouping optimal route-store combinations, reducing delivery times and costs.</li>
+    <li>Automated daily, weekly and monthly transport KPI reports and scheduling scripts, removing manual effort and error from a high-frequency planning process.</li>
+  </ul>
+</div>
+
+### Novus Holdings Ltd
+
+<p class="role-note">South Africa's largest commercial printing and manufacturing group, listed on the JSE.</p>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Industrial Engineer</span>
+    <span class="role-dates">Jul 2014 to Oct 2018</span>
+  </div>
+  <ul>
+    <li>Managed the industrial engineering workstream on a R220 million paper mill and converting line acquisition, lifting paper output from 550 to 900 tons per year and tissue capacity from 340 to 600 tons per year.</li>
+    <li>Built a full-stack management information system (HTML, PHP, SQL) for the new tissue business, enabling real-time data collection and reporting from launch.</li>
+    <li>Designed the tissue warehouse layout, developed production KPIs, and ran internal audits for best-practice adherence.</li>
+  </ul>
+</div>
+
+### Benteler Automotive SA
+
+<p class="role-note">German automotive components supplier to VW, BMW and other global OEMs.</p>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Industrial Engineer</span>
+    <span class="role-dates">Feb 2013 to Apr 2013</span>
+  </div>
+  <ul>
+    <li>Value Stream Mapped 23 VW and BMW production lines across two Johannesburg plants, identifying waste and improvement opportunities.</li>
+    <li>Designed and ran Kaizen workshops for foremen and press operators, building continuous-improvement capability in welding.</li>
+  </ul>
+</div>
+
+### University of the Witwatersrand
+
+<p class="role-note">One of South Africa's leading research universities.</p>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Student Consultant, Wits Solar Car Project</span>
+    <span class="role-dates">Feb 2012 to Dec 2012</span>
+  </div>
+  <ul>
+    <li>Developed the project plan, milestone schedule and stakeholder communication framework, keeping a multi-disciplinary team aligned.</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Student Consultant, Centre for Mechanised Mining Systems</span>
+    <span class="role-dates">Feb 2012 to Jul 2012</span>
+  </div>
+  <ul>
+    <li>Researched and designed interactive learning resources for Industrial Engineering, pioneering a new teaching approach.</li>
+  </ul>
+</div>
+
+### OIM Operations Solutions
+
+<p class="role-note">Operations consulting firm specialising in process improvement for industrial clients.</p>
+
+<div class="role">
+  <div class="role-header">
+    <span class="role-title">Student Industrial Engineer</span>
+    <span class="role-dates">Oct 2011 to Feb 2012</span>
+  </div>
+  <ul>
+    <li>Conducted time, work and motion studies on a client data capture process, reducing processing time and errors.</li>
+  </ul>
+</div>
+
+## Education
+
+**University of the Witwatersrand**
+
+- MSc Industrial Engineering (2021)
+- BSc Industrial Engineering (2013)
+
+## Certifications
+
+- Microsoft Certified: Power BI Data Analyst Associate, Microsoft (2023)
+- Certified Supply Chain Analyst (CSCA), ISCEA (2020)
+
+## Skills
+
+**Technical:** SQL · Python · Power BI · Tableau · MS Excel (advanced) · AMPL · HTML/PHP.
+
+**Systems:** Microsoft Dynamics 365 · Syncron · SAP ERP & BW · Azure Synapse · MySQL · SQL Server · Syspro · One Network.
+
+**Methodologies:** Lean · Kaizen · Value Stream Mapping · S&OP Planning · Operations Research
+
+**Interested in:** Strategic Management · Probability and Uncertainty Modelling · Operations Research · Supply Chain Optimisation.

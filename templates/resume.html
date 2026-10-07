@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="article-wrapper centered">
+  <article class="resume">
+    <div class="article-header">
+      <h1>{{ this.title }}</h1>
+    </div>
+    {{ this.body }}
+  </article>
+</div>
+{% endblock %}

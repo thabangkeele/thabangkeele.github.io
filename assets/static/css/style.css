@@ -547,6 +547,79 @@ article tbody tr:last-child {
 }
 
 
+/* --- Resume page (scoped to article.resume only) --- */
+article.resume h2 {
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+article.resume h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+article.resume .contact-line {
+  font-family: var(--font-heading);
+  font-size: var(--size-small);
+  color: var(--color-text-light);
+  margin-bottom: 0.3rem;
+}
+
+article.resume .role {
+  margin-bottom: 1.5rem;
+}
+
+article.resume .role-note {
+  font-size: 0.88rem;
+  color: var(--color-text-light);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+article.resume .role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+article.resume .role-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+article.resume .role-dates {
+  font-family: var(--font-heading);
+  font-size: var(--size-small);
+  color: var(--color-text-light);
+  white-space: nowrap;
+}
+
+article.resume .role ul {
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+
+article.resume .role li {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 480px) {
+  article.resume .role-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1rem;
+  }
+}
+
+
 /* --- Page Footer --- */
 .site-footer {
   max-width: calc(var(--content-width) + var(--margin-width) + var(--gap));
