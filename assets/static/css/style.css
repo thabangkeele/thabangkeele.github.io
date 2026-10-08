@@ -414,6 +414,35 @@ figure.full-width {
   max-width: none;
 }
 
+/* Side-by-side images: wrap two or more <figure>/<img> in a
+   <div class="image-row"> to lay them out in a row. Stacks
+   vertically below 720px. */
+.image-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.image-row figure,
+.image-row img {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+}
+
+.image-row img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .image-row {
+    flex-direction: column;
+  }
+}
+
 
 /* --- Tables ---
    Minimalist, Tufte-style: horizontal rules only, no vertical
